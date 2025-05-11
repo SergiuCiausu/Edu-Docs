@@ -1,0 +1,1 @@
+export const fractie = "flex flex-col w-fit inline-block items-center";

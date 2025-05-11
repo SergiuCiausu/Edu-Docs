@@ -1,0 +1,45 @@
+.sidebar-header {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.sidebar-clasa-header {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-color);
+    transition: all 75ms ease-in-out;
+}
+
+.sidebar-clasa-header:hover {
+    color: var(--accent-color-hover);
+}
+
+.sidebar-link {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0ms ease-in-out;
+    margin: 4px 0px;
+    padding: 0px;
+}
+
+.sidebar-link-h3 {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin: 4px 0px;
+    padding: 0px;
+    margin-left: 16px;
+}
+
+.sidebar-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}

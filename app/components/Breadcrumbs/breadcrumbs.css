@@ -1,0 +1,17 @@
+.breadcrumb {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.breadcrumb:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    background: url("/breadcrumb-separator.png") center no-repeat;
+    background-size: contain;
+    width: 6px;
+    height: 16px;
+    transform: translateY(4px);
+    padding: 0px 10px;
+}

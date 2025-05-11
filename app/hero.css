@@ -1,0 +1,92 @@
+.hero-header {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.lp-p {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--black-color);
+    margin: 0;
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: background-color 150ms ease-in-out;
+}
+
+.hero-btn:hover {
+    background-color: var(--accent-color-hover);
+}
+
+.lp-h2 {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.heading-container {
+    width: 900px;
+}
+
+section {
+    width: 1520px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+section:not(:first-of-type) {
+    margin-bottom: 128px;
+}
+
+.lp-h3 {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--primary-color);
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.testimonial-p {
+    margin: 0;
+    color: var(--neutral-color);
+}
+
+.testimonial-avatar {
+    border: 2px solid var(--accent-color);
+    border-radius: 100px;
+    width: 48px;
+    height: 48px;
+}
+
+.testimonial-nume {
+    margin: 0;
+    font-weight: 700;
+    color: var(--neutral-color);
+}
+
+.testimonial-titulatura {
+    margin: 0;
+    opacity: 0.75;
+    color: var(--neutral-color);
+}
+
+.testimonial-container {
+    background-color: var(--primary-color);
+    width: 365px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px var(--accent-color);
+}

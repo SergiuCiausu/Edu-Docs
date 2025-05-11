@@ -1,0 +1,21 @@
+.toc-link {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 500;
+    outline: none;
+}
+
+.toc-header {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important; 
+    font-weight: 700 !important;
+    color: var(--primary-color) !important;
+}
+
+.toc-link-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
