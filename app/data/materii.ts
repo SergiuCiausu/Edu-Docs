@@ -109,46 +109,4 @@ export const titluri: fullTitluri = [
           }
         ]
       },
-      {
-        h2: [
-          {
-            text: "Științe socio-umane",
-            link: "stiinte-socio-umane"
-          }
-        ],
-        h3: [
-          { 
-              text: "",
-              link: ""
-          }
-        ]
-      },
-      {
-        h2: [
-          {
-            text: "Limbi străine",
-            link: "limbi-straine"
-          }
-        ],
-        h3: [
-          { 
-              text: "",
-              link: ""
-          }
-        ]
-      },
-      {
-        h2: [
-          {
-            text: "Muzică și desen",
-            link: "muzica-si-desen"
-          }
-        ],
-        h3: [
-          { 
-              text: "",
-              link: ""
-          }
-        ]
-      },
     ]

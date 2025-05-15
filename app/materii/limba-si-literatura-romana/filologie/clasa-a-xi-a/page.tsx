@@ -33,7 +33,7 @@ const page = () => {
         <section className="flex">
             <aside>
                 <Sidebar 
-                profil="mate info" 
+                profil="filologie" 
                 materie="limba și literatura română" 
                 clasa={11} 
                 titluri={titluri}/>
@@ -47,7 +47,7 @@ const page = () => {
                         className="flex gap-5">
                         <div
                             className="py-16 flex-1">
-                            <h1>Limba și literatura română, Mate-info, clasa a XI-a</h1>
+                            <h1>Limba și literatura română, Filologie, clasa a XI-a</h1>
                             <p>                    
                                 Limba și literatura română este disciplina care cuprinde studiul limbii române (gramatică, vocabular, exprimare corectă) și analiza textelor literare (proză, poezie, dramaturgie), punând accent pe înțelegerea, interpretarea și exprimarea ideilor în mod clar și creativ.
                             </p>
@@ -55,7 +55,7 @@ const page = () => {
                             <div
                                 className={`grid grid-cols-2 gap-5 w-full`}>
                                 {capitole.map((capitol, index) => (
-                                   <button key={index} className="px-16 py-8 flex items-center justify-center rounded-2xl capitol-btn cursor-pointer" onClick={() => router.push(`/materii/limba-si-literatura-romana/mate-info/clasa-a-xi-a/${capitol.link}`)}>{capitol.nume}</button> 
+                                   <button key={index} className="px-16 py-8 flex items-center justify-center rounded-2xl capitol-btn cursor-pointer" onClick={() => router.push(`/materii/limba-si-literatura-romana/filologie/clasa-a-xi-a/${capitol.link}`)}>{capitol.nume}</button> 
                                 ))}
                             </div>
                         </div>

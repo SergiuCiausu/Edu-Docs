@@ -7,7 +7,7 @@ import Sidebar from '@/app/components/Sidebar/Sidebar'
 import { useTheme } from '@/context/ThemeContext';
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation';
-import { titluri } from "@/app/data/capitole-romana-mate-info-11";
+import { titluri } from "@/app/data/capitole-romana-mate-info-10";
 
 const page = () => {
 
@@ -33,9 +33,9 @@ const page = () => {
         <section className="flex">
             <aside>
                 <Sidebar 
-                profil="mate info" 
+                profil="științe sociale" 
                 materie="limba și literatura română" 
-                clasa={11} 
+                clasa={10} 
                 titluri={titluri}/>
             </aside>
             <main
@@ -47,7 +47,7 @@ const page = () => {
                         className="flex gap-5">
                         <div
                             className="py-16 flex-1">
-                            <h1>Limba și literatura română, Mate-info, clasa a XI-a</h1>
+                            <h1>Limba și literatura română, Științe sociale, clasa a X-a</h1>
                             <p>                    
                                 Limba și literatura română este disciplina care cuprinde studiul limbii române (gramatică, vocabular, exprimare corectă) și analiza textelor literare (proză, poezie, dramaturgie), punând accent pe înțelegerea, interpretarea și exprimarea ideilor în mod clar și creativ.
                             </p>
@@ -55,7 +55,7 @@ const page = () => {
                             <div
                                 className={`grid grid-cols-2 gap-5 w-full`}>
                                 {capitole.map((capitol, index) => (
-                                   <button key={index} className="px-16 py-8 flex items-center justify-center rounded-2xl capitol-btn cursor-pointer" onClick={() => router.push(`/materii/limba-si-literatura-romana/mate-info/clasa-a-xi-a/${capitol.link}`)}>{capitol.nume}</button> 
+                                   <button key={index} className="px-16 py-8 flex items-center justify-center rounded-2xl capitol-btn cursor-pointer" onClick={() => router.push(`/materii/limba-si-literatura-romana/stiinte-sociale/clasa-a-x-a/${capitol.link}`)}>{capitol.nume}</button> 
                                 ))}
                             </div>
                         </div>

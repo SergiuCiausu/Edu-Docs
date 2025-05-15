@@ -14,30 +14,8 @@ export const titluri: fullTitluri = [
     {
       h2: [
         {
-          text: "Limba și literatura română în spațiul culturii. Devenirea cititorului",
-          link: "limba-si-literatura-romana-in-spatiul-culturii-devenirea-cititorului"
-        }
-      ],
-      h3: [
-        {
-          text: "Ce este vocabularul?",
-          link: "ce-este-vocabularul"
-        },
-        {
-          text: "Structura vocabularului limbii române",
-          link: "structura-vocabularului-limbii-romane"
-        },
-        {
-          text: "Criterii de clasificare a cuvintelor din vocabular",
-          link: "criterii-de-clasificare-a-cuvintelor-din-vocabular"
-        },
-      ]
-    },
-    {
-      h2: [
-        {
-          text: "Comentariu: Enigma Otiliei de George Călinescu",
-          link: "comentariu-enigma-otiliei-de-george-calinescu"
+          text: "Comentariu: Testament de Tudor Arghezi",
+          link: "comentariu-testament-de-tudor-arghezi"
         }
       ],
       h3: [
@@ -66,8 +44,8 @@ export const titluri: fullTitluri = [
           link: "semnificatia-titlului"
         },
         {
-          text: "Perspectiva narativă",
-          link: "perspectiva-narativa"
+          text: "Relații de opoziție",
+          link: "relatii-de-opozitie"
         },
         {
           text: "Două secvențe relevante",
@@ -86,8 +64,8 @@ export const titluri: fullTitluri = [
     {
       h2: [
         { 
-          text: "Comentariu: Moara cu noroc de Ioan Slavici",
-          link: "comentariu-moara-cu-noroc-de-ioan-slavici"
+          text: "Comentariu: Eu nu strivesc corola de minuni a lumii de Lucian Blaga",
+          link: "comentariu-eu-nu-strivesc-corola-de-minuni-a-lumii-de-lucian-blaga"
         }
       ],
       h3: [
@@ -116,8 +94,8 @@ export const titluri: fullTitluri = [
           link: "semnificatia-titlului"
         },
         {
-          text: "Perspectiva narativă",
-          link: "perspectiva-narativa"
+          text: "Relații de opoziție",
+          link: "relatii-de-opozitie"
         },
         {
           text: "Două secvențe relevante",
@@ -128,54 +106,8 @@ export const titluri: fullTitluri = [
           link: "elemente-de-limbaj"
         },
         {
-          text: "Concluzie",
-          link: "concluzie"
-        },
-      ]
-    },
-    {
-      h2: [
-        { 
-          text: "Comentariu: Ultima noapte de dragoste, întâia noapte de război de Camil Petrescu",
-          link: "comentariu-ultima-noapte-de-dragoste-intaia-noapte-de-razboi-de-camil-petrescu"
-        }
-      ],
-      h3: [
-        {
-          text: "Date despre autor",
-          link: "date-despre-autor"
-        },
-        {
-          text: "Publicare",
-          link: "publicare"
-        },
-        {
-          text: "Curent literar",
-          link: "curent-literar"
-        },
-        {
-          text: "Teme și motive",
-          link: "teme-si-motive"
-        },
-        {
-          text: "Specie literară",
-          link: "specie-literara"
-        },
-        {
-          text: "Semnificația titlului",
-          link: "semnificatia-titlului"
-        },
-        {
-          text: "Perspectiva narativă",
-          link: "perspectiva-narativa"
-        },
-        {
-          text: "Două secvențe relevante",
-          link: "doua-secvente-relevante"
-        },
-        {
-          text: "Elemente de limbaj",
-          link: "elemente-de-limbaj"
+          text: "Prozodie",
+          link: "prozodie"
         },
         {
           text: "Concluzie",
@@ -186,8 +118,8 @@ export const titluri: fullTitluri = [
     {
       h2: [
         { 
-          text: "Comentariu: O scrisoare pierdută de Ion Luca Caragiale",
-          link: "comentariu-o-scrisoare-pierduta-de-ion-luca-caragiale"
+          text: "Comentariu: Moromeții de Marin Preda",
+          link: "comentariu-morometii-de-marin-preda"
         }
       ],
       h3: [
