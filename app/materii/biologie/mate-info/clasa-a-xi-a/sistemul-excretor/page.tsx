@@ -12,7 +12,7 @@ import React, { useEffect, useState } from 'react'
 import { ulClass, olClass } from '@/app/class/ul';
 import { Inder } from 'next/font/google';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
   
@@ -171,4 +171,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -9,7 +9,7 @@ import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation';
 import { titluriCapitole } from "@/app/data/capitole-fizica-mate-info-capitole-12";
 
-const page = () => {
+const Page = () => {
 
     const router = useRouter();
 
@@ -68,4 +68,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -10,7 +10,7 @@ import { useRouter } from 'next/navigation';
 import { ulClass } from '../class/ul';
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -103,4 +103,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

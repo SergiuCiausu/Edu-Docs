@@ -14,7 +14,7 @@ import H3 from '@/app/components/PageContent/H3';
 import { tableClass, trClass } from '@/app/class/table';
 import { table } from 'console';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
 
@@ -181,4 +181,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

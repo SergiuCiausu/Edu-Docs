@@ -12,7 +12,7 @@ import { titluri } from "@/app/data/capitole-bio-stiinte-ale-naturii-10";
 import { olClass, ulClass } from '@/app/class/ul';
 import H3 from '@/app/components/PageContent/H3';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
 
@@ -219,4 +219,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

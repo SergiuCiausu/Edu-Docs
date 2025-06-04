@@ -13,7 +13,7 @@ import { olClass, ulClass } from '@/app/class/ul';
 import H3 from '@/app/components/PageContent/H3';
 import { tableClass, trClass } from '@/app/class/table';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
 
@@ -187,4 +187,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

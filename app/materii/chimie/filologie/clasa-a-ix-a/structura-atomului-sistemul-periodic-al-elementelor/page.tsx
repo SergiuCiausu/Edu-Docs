@@ -16,7 +16,7 @@ import { table } from 'console';
 import { fractie } from "@/app/class/fractie-container"
 import Vector from '@/app/components/Ecuatii/Vectori/Vector';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -207,4 +207,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

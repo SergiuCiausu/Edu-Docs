@@ -11,7 +11,7 @@ import TableOfContents from '@/app/components/PageContent/TableOfContents';
 import { titluri } from "@/app/data/capitole-bio-mate-info-9";
 import { ulClass } from '@/app/class/ul';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
 
@@ -84,4 +84,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

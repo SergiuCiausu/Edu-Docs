@@ -9,7 +9,7 @@ import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation';
 import { titluri } from "@/app/data/capitole-bio-mate-info-9";
 
-const page = () => {
+const Page = () => {
 
     const router = useRouter();
 
@@ -73,4 +73,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

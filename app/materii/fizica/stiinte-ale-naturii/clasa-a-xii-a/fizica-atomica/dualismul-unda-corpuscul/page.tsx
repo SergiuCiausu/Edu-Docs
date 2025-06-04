@@ -17,7 +17,7 @@ import { fractie } from "@/app/class/fractie-container"
 import Vector from '@/app/components/Ecuatii/Vectori/Vector';
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -192,4 +192,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

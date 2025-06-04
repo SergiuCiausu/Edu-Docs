@@ -11,7 +11,7 @@ import React, { useEffect, useState } from 'react'
 import { titluri } from "@/app/data/capitole-bio-mate-info-9";
 import { ulClass } from '@/app/class/ul';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -210,4 +210,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

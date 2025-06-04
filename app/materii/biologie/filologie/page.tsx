@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react'
 import { titluri } from "@/app/data/capitole-bio-filologie";
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -76,4 +76,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

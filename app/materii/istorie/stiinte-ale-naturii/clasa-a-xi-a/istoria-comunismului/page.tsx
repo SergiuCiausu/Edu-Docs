@@ -18,7 +18,7 @@ import Vector from '@/app/components/Ecuatii/Vectori/Vector';
 import { titluriCapitole } from '@/app/data/capitole-fizica-mate-info-capitole-10';
 import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -180,4 +180,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -11,7 +11,7 @@ import { useTheme } from '@/context/ThemeContext';
 import React, { useEffect, useState } from 'react'
 import { ulClass } from '@/app/class/ul';
 
-const page = () => {
+const Page = () => {
   
   const { theme, setTheme } = useTheme();
   
@@ -162,4 +162,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

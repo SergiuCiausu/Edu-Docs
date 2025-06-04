@@ -10,13 +10,9 @@ import { H2 } from '@/app/components/PageContent/H2';
 import TableOfContents from '@/app/components/PageContent/TableOfContents';
 import { titluri } from "@/app/data/capitole-chimie-12";
 import { olClass, ulClass } from '@/app/class/ul';
-import H3 from '@/app/components/PageContent/H3';
-import { tableClass, trClass } from '@/app/class/table';
-import { table } from 'console';
 import { fractie } from "@/app/class/fractie-container"
-import Vector from '@/app/components/Ecuatii/Vectori/Vector';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -54,7 +50,7 @@ const page = () => {
   }
 
   return (
-    <div>
+    <>
         <Navbar theme={theme} onThemeChange={setTheme}/>
         <section className="flex">
           <aside>
@@ -138,7 +134,7 @@ const page = () => {
                     <li>Acumulatorul cu plumb: Pb / PbO₂ în soluție de H₂SO₄.</li>
                     <li>Bateria Li-ion: bazată pe reacții redox reversibile între Li și alte materiale.</li>
                   </ul>
-                  <H2 h2text="Electroliza. Legile lui Faraday" indexH2={indexH2("Electroliza. Legile lui Faraday")} indexLectie={titluri.length > 1 ? indexLectie : -1|}></H2>
+                  <H2 h2text="Electroliza. Legile lui Faraday" indexH2={indexH2("Electroliza. Legile lui Faraday")} indexLectie={titluri.length > 1 ? indexLectie : -1}></H2>
                   <p>
                     <strong>Electroliza</strong> este un proces ne-spontan în care energia electrică este folosită pentru a produce reacții chimice.
                   </p>
@@ -184,8 +180,8 @@ const page = () => {
             </div>
           </main>
         </section>
-    </div> 
+    </> 
   )
 }
 
-export default page
+export default Page

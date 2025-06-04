@@ -12,7 +12,7 @@ import Link from 'next/link';
 import { tocIntroducere } from '../data/introducere';
 import TableOfContents from '../components/PageContent/TableOfContents';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -141,4 +141,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

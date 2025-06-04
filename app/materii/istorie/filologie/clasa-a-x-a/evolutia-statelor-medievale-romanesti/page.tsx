@@ -17,7 +17,7 @@ import { fractie } from "@/app/class/fractie-container"
 import Vector from '@/app/components/Ecuatii/Vectori/Vector';
 import { titluriCapitole } from '@/app/data/capitole-fizica-mate-info-capitole-10';
 
-const page = () => {
+const Page = () => {
 
   const { theme, setTheme } = useTheme();
 
@@ -148,4 +148,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
