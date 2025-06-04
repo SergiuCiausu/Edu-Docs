@@ -28,7 +28,7 @@ const Page = () => {
         })
 
   return (
-    <div>
+    <>
       <Navbar theme={theme} onThemeChange={setTheme}/>
         <section className="flex">
           <aside>
@@ -65,7 +65,7 @@ const Page = () => {
             </div>
           </main>
         </section>
-    </div>
+    </>
   )
 }
 
